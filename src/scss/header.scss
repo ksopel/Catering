@@ -1,0 +1,55 @@
+root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header section footer {
+  width: 100%;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+  background-color: lightseagreen;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.logo {
+  img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+}
+
+.navbar {
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+}
+
+.navbar__item {
+  cursor: pointer;
+  margin-right: 10px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+
+  }
+
+}
