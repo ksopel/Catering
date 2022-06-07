@@ -7,6 +7,7 @@ root {
 header section footer {
   width: 100%;
   padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -23,12 +24,13 @@ header {
 
 
 }
+
 .logo {
   img {
     width: 80px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
   }
 }
@@ -39,9 +41,11 @@ header {
   text-align: center;
   display: flex;
 }
+
 .navbar__item {
   cursor: pointer;
   margin-right: 10px;
+
   a {
     text-decoration: none;
     color: white;
@@ -55,10 +59,16 @@ header {
 .content__box {
   margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
+
   h1 {
     margin-bottom: 15px;
     font-weight: bold;
     font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    margin-bottom: 20px;
   }
 }
 
@@ -68,38 +78,116 @@ header {
   border-radius: 5px;
   text-decoration: none;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-primary {
   background-color: cadetblue;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+
 }
 
 .btn-secondary {
   background-color: indianred;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+
 }
 
 .content__image {
   margin: 50px;
+
   img {
     width: 500px;
   }
 }
 
-.blurb{
-  width: 300px;
-  justify-items: center;
+.blurb__boxes {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.blurb {
+  border: 2px solid silver;
+  border-radius: 16px;
+  background-color: rgba(192, 192, 192, 0.27);
+  max-width: 215px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+
+
+  p {
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 206px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: cornflowerblue;
+    cursor: pointer;
+    text-transform: uppercase;
+
+  }
+
 
   h2 {
     font-size: 22px;
     text-align: center;
     margin: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 
   }
+
   img {
     width: 200px;
     height: 200px;
     border: 3px solid cadetblue;
     border-radius: 23%;
+    margin-top: 10px;
 
+
+  }
+
+  .btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+  }
+}
+
+footer {
+  margin-top: 10px;
+  text-decoration: none;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightseagreen;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 20px;
+
+  a {
+    text-decoration: none;
+    color:white;
   }
 }
