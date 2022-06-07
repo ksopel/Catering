@@ -1,6 +1,5 @@
 root {
   font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
 }
 
 header section footer {
@@ -27,7 +26,6 @@ header {
 .logo {
   img {
     width: 80px;
-    height: 80px;
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -36,55 +34,22 @@ header {
 }
 
 .navbar {
-  font-family: 'Raleway', Arial, sans-serif;
+  padding: 20px 0;
+  font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.navbar * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.navbar li {
-  display: inline-block;
-  list-style: outside none none;
-  margin: 0 2em;
-  padding: 0;
-}
-.navbar a {
-  font-size: 1.1rem;
-  font-weight: 700;
-  display: inline-block;
-  padding: 0.5em 17px;
-  color: white;
-  position: relative;
-  letter-spacing: 1px;
-  text-decoration: none;
-}
-.navbar a:before {
-  left: 20%;
-  right: 20%;
-  top: 50%;
-  content: '';
-  border-left: 12px solid indianred;
-  border-right: 12px solid indianred;
-  transform: translateY(-50%);
-  height: 3px;
-  opacity: 0;
-  position: absolute;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.navbar a:hover,
-.navbar .current a {
-  color: #ffffff;
-}
-.navbar a:hover:before,
-.navbar .current a:before {
-  left: 0;
-  right: 0;
-  opacity: 1;
+  display: flex;
 }
 
+.navbar__item {
+  cursor: pointer;
+  margin-right: 10px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+
+  }
+
+}

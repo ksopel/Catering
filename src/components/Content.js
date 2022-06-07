@@ -1,6 +1,5 @@
 import "../scss/content.scss"
 import food from "../images/food.jpg"
-import {Link} from "react-router-dom";
 
 function Content() {
     return (
@@ -19,12 +18,11 @@ function Content() {
                         fugiat necessitatibus nemo possimus provident repudiandae sed! Doloremque eveniet exercitationem
                         fuga sit. Autem cupiditate doloremque placeat qui.
                     </p>
-                    <Link to="/about" className="btn btn-primary">O nas</Link>
-                    <Link to="/contact" className="btn btn-secondary">Skontaktuj się z nami</Link>
-
+                    <a href="#" className="btn btn-primary">First</a>
+                    <a href="#" className="btn btn-secondary">Second</a>
                 </div>
                 <div className="content__image">
-                    <img src={food} alt="Na zdjęciu znajdują się dania włoskie"/>
+                    <img src={food} alt=""/>
                 </div>
             </div>
         </section>
