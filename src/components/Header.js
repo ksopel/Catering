@@ -13,9 +13,9 @@ function Header() {
                 <div className="nav">
                     <ul className="navbar">
                         <li className="navbar__item"><a href="#"> Home </a></li>
-                        <li className="navbar__item"><a href="#"> Pricing </a></li>
+                        <li className="navbar__item"><a href="#"> About us </a></li>
                         <li className="navbar__item"><a href="#"> Contact </a></li>
-                        <li className="navbar__item"><a href="#"> Log In </a></li>
+                        <li className="navbar__item"><a href="#"> Menu </a></li>
                     </ul>
 
                 </div>

@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Blurb from "./components/Blurb";
+import Contact from "./components/Contact";
+import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
 import "./scss/main.scss"
 
@@ -10,6 +12,8 @@ function App() {
         <Header/>
         <Content/>
         <Blurb/>
+        <Contact/>
+        <AboutUs/>
         <Footer/>
     </div>
   );

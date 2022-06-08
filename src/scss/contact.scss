@@ -1,49 +1,26 @@
-.container__contact {
-  background-image: url(../images/garlic.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 0;
-
-}
-
 .form__container {
   width: 100%;
-  background-color: rgba(32, 178, 170, 0.57);
-  border-radius: 23px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 6rem;
-
-
+  background-color: lightseagreen;
   div {
     display: flex;
     justify-content: space-between;
-    margin: 3rem;
+    margin: 10rem;
   }
 
 
 
   p {
-    max-width: 500px;
+    width: 500px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 3rem;
-    text-align: justify;
   }
 
   form {
-    max-width: 500px;
+    width: 500px;
     display:flex;
     flex-direction: column;
     margin-left: 1rem;
-    padding: 20px;
-    background-color: #0000001f;
-    border-radius: 20px;
-
-
-
     input  {
       margin-bottom: 10px;
     }
@@ -51,8 +28,8 @@
     textarea {
       margin-bottom: 10px;
     }
-    .button {
-      background-color: rgba(70, 130, 180, 0.73);
+    button {
+      background-color: steelblue;
       color: white;
       cursor: pointer;
       padding: 8px 19px;
@@ -60,7 +37,7 @@
       border-radius: 23px;
       margin-top: 1rem;
     }
-    .button:hover{
+    button:hover{
       background-color: indianred;
     }
   }
@@ -82,21 +59,6 @@
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin: 3rem 0;
-
-}
-
-.form__container label, .form__title {
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.form__title__big {
-  padding: 3rem;
-  text-transform: uppercase;
-  color: lightseagreen;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
