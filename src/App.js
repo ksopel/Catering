@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Blurb from "./components/Blurb";
+import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import AboutUs from "./components/AboutUs";
 import Footer from "./components/Footer";
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Content/>
         <Blurb/>
+        <Menu/>
         <Contact/>
         <AboutUs/>
         <Footer/>
