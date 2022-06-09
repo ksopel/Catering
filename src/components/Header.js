@@ -1,6 +1,7 @@
 import React from "react";
 import "../scss/header.scss"
 import logo from "../images/logo.jpg"
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -12,10 +13,10 @@ function Header() {
                 </div>
                 <div className="nav">
                     <ul className="navbar">
-                        <li className="navbar__item"><a href="#"> Home </a></li>
-                        <li className="navbar__item"><a href="#"> About us </a></li>
-                        <li className="navbar__item"><a href="#"> Contact </a></li>
-                        <li className="navbar__item"><a href="#"> Menu </a></li>
+                        <li className="navbar__item"><Link to="/"> Home </Link></li>
+                        <li className="navbar__item"><Link to="/about"> About us </Link></li>
+                        <li className="navbar__item"><Link to="/menu"> Menu </Link></li>
+                        <li className="navbar__item"><Link to="/contact"> Contact </Link></li>
                     </ul>
 
                 </div>

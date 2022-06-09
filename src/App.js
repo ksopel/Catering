@@ -1,23 +1,31 @@
-import Header from "./components/Header";
-import Content from "./components/Content";
-import Blurb from "./components/Blurb";
-import Menu from "./components/Menu";
-import Contact from "./components/Contact";
-import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
+import AboutUsMain from "./aboutus";
+import ContactMain from "./contact";
+import Main from "./main";
+import MenuMain from "./menu";
 import "./scss/main.scss"
+
+
+import {
+    HashRouter,
+    Route,
+    Routes,
+    Router,
+    Link,
+    Switch,
+    NavLink,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-        <Header/>
-        <Content/>
-        <Blurb/>
-        <Menu/>
-        <Contact/>
-        <AboutUs/>
-        <Footer/>
-    </div>
+      <HashRouter>
+          <Routes>
+              <Route index element={<Main/>} />
+              <Route path="/contact" element={<ContactMain/>}/>
+              <Route path="/about" element={<AboutUsMain/>}/>
+              <Route path="/menu" element={<MenuMain/>}/>
+          </Routes>
+      </HashRouter>
+
   );
 }
 
