@@ -29,7 +29,12 @@
   color: white;
   cursor: pointer;
   text-transform: uppercase;
+  margin-right: 10px;
 
+}
+
+.btn-primary:hover {
+  background-color: indianred;
 }
 
 .btn-secondary {
@@ -39,6 +44,10 @@
   cursor: pointer;
   text-transform: uppercase;
 
+}
+
+.btn-secondary:hover {
+  background-color: cadetblue;
 }
 
 .content__image {

@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 
 function Contact() {
     return (
-        <>
+        <div className="container__contact">
             <h1 className="form__title"> Contact with us!</h1>
             <div className="container">
                 <div className="form__container">
@@ -26,7 +26,7 @@ function Contact() {
                 </div>
 
             </div>
-        </>
+        </div>
 
 
     )

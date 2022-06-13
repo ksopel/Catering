@@ -1,21 +1,55 @@
+.container__all {
+  background-image: url(../images/flour.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  //background-position: center;
+  background-size: cover;
+  padding: 10px;
+
+}
+
 .container__menu {
 
   width: 600px;
-  height: 400px;
-  background-color: cadetblue;
+  height: 300px;
+  background-color: rgba(95, 158, 160, 0.47);
   border: 3px solid steelblue;
   border-radius: 22px;
-  margin: 0 auto;
+  margin: 10px auto;
   justify-content: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  align-content: center;
+  align-content: space-between;
 
   h2 {
     margin-top: 10px;
-    font-size: 35px;
+    font-size: 55px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: white;
   }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+
+ .container__description {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .container__price {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: peru;
+  }
+
 }
