@@ -33,13 +33,13 @@ export const ContactForm = () => {
     return (
         <>
         <form ref={form} onSubmit={sendEmail}>
-            <label htmlFor="text">Imię</label>
+            <label htmlFor="text">Imię:</label>
             <input type="text" name="user_name"/>
 
-            <label htmlFor="email">Podaj email</label>
+            <label htmlFor="email">Email:</label>
             <input name="user_email" id="email"/>
 
-            <label htmlFor="textarea">Czym chcesz się z nami podzielić</label>
+            <label htmlFor="textarea">Czym chcesz się z nami podzielić?</label>
             <textarea name="message"></textarea>
 
             <input type="submit" onClick={handleClick} value="Send" className="button" />
