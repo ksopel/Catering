@@ -1,5 +1,6 @@
 import React from "react";
 import "../scss/contact.scss"
+import ContactForm from "./ContactForm";
 
 
 function Contact() {
@@ -19,21 +20,7 @@ function Contact() {
                             repellendus velit veritatis. Atque commodi fugiat necessitatibus nemo possimus provident
                             repudiandae sed! Doloremque eveniet exercitationem fuga sit. Autem cupiditate doloremque
                             placeat qui.</p>
-                        <form>
-                            <label htmlFor="text">Imię</label>
-                            <input type="text" id="text"/>
-
-                            <label htmlFor="text">Nazwisko</label>
-                            <input type="text" id="text"/>
-
-                            <label htmlFor="email">Podaj email</label>
-                            <input type="email" id="email"/>
-
-                            <label htmlFor="textarea">Czym chcesz się z nami podzielić</label>
-                            <textarea id="textarea"></textarea>
-
-                            <button type="submit">Wyślij</button>
-                        </form>
+                            <ContactForm/>
                     </div>
 
                 </div>

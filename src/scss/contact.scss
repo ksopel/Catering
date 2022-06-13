@@ -2,26 +2,30 @@
   width: 100%;
   background-color: lightseagreen;
   border-radius: 23px;
+  display: flex;
+  flex-wrap: wrap;
+
   div {
     display: flex;
     justify-content: space-between;
-    margin: 10rem;
+    margin: 3rem;
   }
 
 
 
   p {
-    width: 500px;
+    max-width: 500px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 3rem;
   }
 
   form {
-    width: 500px;
+    max-width: 500px;
     display:flex;
     flex-direction: column;
     margin-left: 1rem;
+
     input  {
       margin-bottom: 10px;
     }
@@ -29,7 +33,7 @@
     textarea {
       margin-bottom: 10px;
     }
-    button {
+    .button {
       background-color: steelblue;
       color: white;
       cursor: pointer;
@@ -38,7 +42,7 @@
       border-radius: 23px;
       margin-top: 1rem;
     }
-    button:hover{
+    .button:hover{
       background-color: indianred;
     }
   }
