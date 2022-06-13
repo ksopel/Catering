@@ -13,7 +13,7 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className="content__image">
-                    <img src={chef} alt=""/>
+                    <img src={chef} alt="Na zdjęciu jest przystojny włoski kucharz"/>
                 </div>
             </div>
         </section>

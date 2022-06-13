@@ -24,7 +24,7 @@ function Content() {
 
                 </div>
                 <div className="content__image">
-                    <img src={food} alt=""/>
+                    <img src={food} alt="Na zdjęciu znajdują się dania włoskie"/>
                 </div>
             </div>
         </section>
