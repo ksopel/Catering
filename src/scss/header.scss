@@ -1,5 +1,6 @@
 root {
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 header section footer {
@@ -44,7 +45,15 @@ header {
 
 .navbar__item {
   cursor: pointer;
-  margin-right: 10px;
+  margin: 5px 10px;
+
+
+
+  a:hover{
+    border: white solid 2px;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
 
   a {
     text-decoration: none;
@@ -52,6 +61,8 @@ header {
     cursor: pointer;
     text-transform: uppercase;
 
+
   }
+
 
 }
