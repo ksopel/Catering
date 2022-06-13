@@ -9,21 +9,21 @@ function Blurb() {
         <section>
             <div className="container blurb__boxes">
                 <div className="blurb">
-                    <img src={delivery} alt=""/>
+                    <img src={delivery} alt="na zdjeciu jest wykwintne danie kuchni włoskiej"/>
                     <h2>Delivery</h2>
                     <p>Animi commodi ea, error explicabo obcaecati porro suscipit. Animi eaque facilis fuga illo
                         inventore neque nihil quas quo repellendus?</p>
                     {/*<a href="#" className="btn btn-delivery">Kliknij tutaj!</a>*/}
                 </div>
                 <div className="blurb">
-                    <img src={dish} alt=""/>
+                    <img src={dish} alt="Na zdjęciu znajdują się naleśniki na słodko"/>
                     <h2>Menu</h2>
                     <p>Animi commodi ea, error explicabo obcaecati porro suscipit. Animi eaque facilis fuga illo
                         inventore neque nihil quas quo repellendus?</p>
                     <Link to="/menu" className="btn btn-menu">Kliknij tutaj!</Link>
                 </div>
                 <div className="blurb">
-                    <img src={spices} alt=""/>
+                    <img src={spices} alt="na zdjęciu znajdują się przyprawy"/>
                     <h2>Read more</h2>
                     <p>Animi commodi ea, error explicabo obcaecati porro suscipit. Animi eaque facilis fuga illo
                         inventore neque nihil quas quo repellendus?</p>
